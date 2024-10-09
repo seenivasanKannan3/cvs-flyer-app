@@ -1,0 +1,75 @@
+.event-detail {
+    /* background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 30px;
+    height: 35vh;
+    background-color: #f0f0f0;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #f0f0f0;
+}
+
+.event-detail h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.event-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.event-info div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.event-info .event-date,
+.event-info .event-venue {
+    font-weight: bold;
+}
+
+.event-info .event-date svg,
+.event-info .event-venue svg {
+    margin-right: 8px;
+    color: #007bff;
+}
+
+.event-description {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.event-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.event-icons .icon {
+    color: #007bff;
+    transition: transform 0.3s ease;
+}
+
+.event-icons .icon:hover {
+    transform: scale(1.2);
+}

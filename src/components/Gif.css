@@ -1,0 +1,7 @@
+.gif-container {
+    display: flex;
+}
+
+.responsive-gif {
+    width: 10%;
+}
